@@ -1,14 +1,13 @@
 import AppRoutes from "../../@router";
+import Header from "./header";
 
 const ContainerDashboard = () => {
     return (
-        <div>
+        <div className="flex flex-col bg-[#571265] w-full h-full text-white">
             {/* Header */}
-            <div></div>
+            <Header />
             {/* Body / Page */}
-            <div>
-                <AppRoutes />
-            </div>
+            <AppRoutes />
             {/* Footer */}
             <div></div>
         </div>
