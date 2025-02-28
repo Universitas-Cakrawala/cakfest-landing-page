@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-
+import LogoCakfest from '../../../assets/logo-cakfest.png'
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsScrolled(window.scrollY > 50);
+            setIsScrolled(window.scrollY > 30);
         };
 
         window.addEventListener("scroll", handleScroll);
@@ -13,19 +13,19 @@ const Header = () => {
     }, []);
 
     return (
-        <div className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? "p-4" : ""}`}>
-            <div className={` ${isScrolled ? "bg-white/80 backdrop-blur-md shadow-md rounded-xl px-4 m-4" : "bg-transparent"}`}>
-                <div className="flex max-w-[1200px] w-full mx-auto justify-between px-8 py-6">
-                    <img src="../../../vite.svg" />
-                    <ul className="flex gap-4 underline underline-offset-6">
+        <div className={`fixed top-0 w-full z-50 transition-all px-[50px] py-10 ${isScrolled ? "top-2" : ""}`}>
+            <div className={`duration-300 ${isScrolled ? "bg-[#C891F2] backdrop-blur-md shadow-md rounded-xl sm:rounded-3xl m-4" : "bg-transparent"}`}>
+                <div className="flex w-full justify-between px-6 py-6">
+                    <img src={LogoCakfest} />
+                    <ul className="flex items-center gap-[40px]">
                         <li>
-                            <a>About</a>
+                            <a className="cursor-pointer font-semibold font-xl hover:underline underline-offset-8">About</a>
                         </li>
                         <li>
-                            <a>Competition</a>
+                            <a className="cursor-pointer font-semibold font-xl hover:underline underline-offset-8">Competition</a>
                         </li>
                         <li>
-                            <a>Contact Us</a>
+                            <a className="cursor-pointer font-semibold font-xl hover:underline underline-offset-8">Contact Us</a>
                         </li>
                     </ul>
                 </div>
