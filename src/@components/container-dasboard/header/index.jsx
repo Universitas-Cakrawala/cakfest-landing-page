@@ -32,7 +32,6 @@ const Header = () => {
                             <a className={`cursor-pointer font-semibold font-xl hover:underline underline-offset-8 ${activeUnderline === '/about' ? "underline underline-offset-8" : ""}`}
                                 onClick={() => { onClickNav({ path: '/about', navigate }); setActiveUnderline('/about') }}>About</a>
                         </li>
-                        {console.log(activeUnderline, 'memek')}
                         <li>
                             <a
                                 className="cursor-pointer font-semibold font-xl"
