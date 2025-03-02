@@ -13,7 +13,7 @@ const Competition = () => {
                 <div className=''>
                     <img src={Astronot} />
                 </div>
-                <div className='cursor-pointer'>
+                <div className=''>
                     <svg width="624" height="122" viewBox="0 0 624 122" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="19.9878" y="20.9397" width="580" height="100" transform="rotate(-2 19.9878 20.9397)" fill="#E6B62E" />
                         <rect x="10.6919" y="41.2765" width="600" height="60" transform="rotate(-2 10.6919 41.2765)" fill="#E6B62E" />
