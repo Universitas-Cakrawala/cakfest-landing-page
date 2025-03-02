@@ -1,6 +1,7 @@
 import BackgroundHome from '../assets/background-home.png'
 import Astronot from '../assets/astronot.png'
 
+
 const Competition = () => {
     return (
         <div className="flex flex-col w-full h-full">
