@@ -7,7 +7,7 @@ const Competition = () => {
             <img src={BackgroundHome} className='relative' />
             <div className='flex flex-col items-center w-full absolute z-10 top-32 gap-2'>
                 <div className='flex flex-col items-center'>
-                    <h1 className='font-bold text-5xl text-yellow-500'>Cakrawala University</h1>
+                    <h1 className='font-bold text-5xl text-yellow-400'>Cakrawala University</h1>
                     <h2 className='font-normal text-5xl'>Competition</h2>
                 </div>
                 <div className=''>

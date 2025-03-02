@@ -19,7 +19,7 @@ const Header = () => {
     }, []);
 
     return (
-        <div className={`fixed top-0 w-full z-50 transition-all px-10 py-10 duration-300 ${isScrolled ? "bg-white/10 backdrop-blur-md shadow-md px-0 py-0" : "bg-transparent"}`}>
+        <div className={`fixed top-0 w-full z-50 transition-all px-8 py-8 duration-300 ${isScrolled ? "backdrop-blur-md shadow-md px-0 py-0" : "bg-transparent"}`}>
             <div className="">
                 <div className="flex w-full justify-between">
                     <img src={LogoCakfest} />
@@ -50,7 +50,7 @@ const Header = () => {
                                         xmlns="http://www.w3.org/2000/svg"
                                         className="absolute top-0 left-0 w-full h-full -z-10"
                                     >
-                                        <g fill={isHovered ? "#FFD700" : "#FDC833"}>
+                                        <g fill={isHovered ? "#FDC833" : "#FFD700"}>
                                             <path fillRule="evenodd" clipRule="evenodd" d="M8 0.691299H117V4.6913H121V8.6913H125V35.6913H121V39.6913H117V43.6913H8V39.6913H4V35.6913H0V8.6913H4V4.6913H8V0.691299Z" />
                                             <rect x="8" y="39.6913" width="109" height="4" fill="#B48E24" />
                                             <rect x="8" y="39.6913" width="109" height="4" fill="#B48E24" />
