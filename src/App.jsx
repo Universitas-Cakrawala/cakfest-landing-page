@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router";
-import ContainerDashboard from "./@components/container-dasboard";
+import ContainerDashboard from "./components/container-dasboard";
 
 function App() {
   return (

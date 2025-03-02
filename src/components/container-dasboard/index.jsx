@@ -1,4 +1,4 @@
-import AppRoutes from "../../@router";
+import AppRoutes from "../../router";
 import Header from "./header";
 
 const ContainerDashboard = () => {
