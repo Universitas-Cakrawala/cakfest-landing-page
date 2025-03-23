@@ -19,7 +19,7 @@ const Header = () => {
     }, []);
 
     return (
-        <div className={`fixed top-0 w-full z-50 transition-all px-8 py-8 duration-300 ${isScrolled ? "backdrop-blur-md shadow-md px-0 py-0" : "bg-transparent"}`}>
+        <div className={`fixed top-0 w-full z-50 transition-all px-6 py-6 duration-300 ${isScrolled ? "bg-[#571265] shadow-md px-0 py-0" : "bg-transparent"}`}>
             <div className="">
                 <div className="flex w-full justify-between">
                     <img src={LogoCakfest} />

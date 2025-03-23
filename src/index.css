@@ -3,3 +3,13 @@
 @theme {
     --font-sans: "Pixelify Sans", sans-serif;
 }
+
+@keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
