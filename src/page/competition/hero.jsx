@@ -2,6 +2,7 @@ import BackgroundHero from "../../assets/background-hero.png";
 import Astronot from "../../assets/astronot.png";
 import ListCompetition from "./list-competition";
 import PrizePool from "./prize-pool";
+import Our_Partnership from "./our-partnership";
 
 const Competition = () => {
   return (
@@ -120,6 +121,9 @@ const Competition = () => {
       </div>
       <div>
         <PrizePool />
+      </div>
+      <div>
+        <Our_Partnership />
       </div>
     </>
   );
