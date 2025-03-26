@@ -12,7 +12,7 @@ export const Noted = () => {
   };
 
   return (
-    <div className="flex items-center gap-8 py-5 px-24 z-10 bg-[#571265] overflow-hidden">
+    <div className="flex items-center gap-8 py-5 px-24 z-10 bg-[#721783] overflow-hidden">
       <img src={LogoCakfest} />
       <div className="relative w-full overflow-hidden whitespace-nowrap">
         <div className="flex animate-[marquee_15s_linear_infinite]">

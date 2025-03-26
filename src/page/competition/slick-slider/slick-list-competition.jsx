@@ -1,4 +1,4 @@
-import { asset_competition } from "../../../assets/images";
+import { asset_list_competition } from "../../../assets/images";
 import React from "react";
 import Slider from "react-slick";
 
@@ -20,7 +20,7 @@ function Slick_List_Competition() {
   return (
     <div className="slider-container w-screen overflow-hidden px-32 py-10">
       <Slider {...settings}>
-        {asset_competition.map((item, index) => {
+        {asset_list_competition.map((item, index) => {
           return (
             <div key={index} className="flex justify-center">
               <div className="relative w-full h-full">
@@ -39,7 +39,10 @@ function Slick_List_Competition() {
                     <p className="font-normal text-xs text-center text-black w-80 ">
                       {item?.description}
                     </p>
-                    <img src={item?.button} className="w-32 h-11" />
+                    <img
+                      src={item?.button}
+                      className="w-32 h-11 cursor-pointer"
+                    />
                   </div>
                 </div>
               </div>
