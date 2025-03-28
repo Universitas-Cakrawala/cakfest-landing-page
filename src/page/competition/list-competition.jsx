@@ -9,7 +9,7 @@ const ListCompetition = () => {
       <div className="absolute w-full h-full">
         <img src={BackgroundListCompetition} className="w-full h-full" />
       </div>
-      <div className="relative flex flex-col items-center  gap-2.5 z-10 pt-10 pb-48">
+      <div className="relative flex flex-col items-center  gap-2.5 z-10 pt-8 pb-[200px]">
         <img src={Piala} className="w-36 h-36" />
         <div className="flex gap-2.5">
           <h1 className="font-bold text-5xl text-[#FFFAEB]">CHALLENGE</h1>
