@@ -1,3 +1,9 @@
+export const asset_contact_us = [
+  {
+    img_bg:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background%20(5).jpg?updatedAt=1743270359496",
+  },
+];
 export const asset_partners = [
   {
     img_bg:
