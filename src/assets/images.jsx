@@ -12,73 +12,85 @@ export const asset_list_partners = [
     name_partner: "Logo Ipsum",
     img_bg_list:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_19-removebg-preview.png?updatedAt=1743131068022",
-    // img_logo_list:""
+    img_logo_list:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Logo.png?updatedAt=1743269978929",
   },
   {
     name_partner: "Logo Ipsum",
     img_bg_list:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_19-removebg-preview.png?updatedAt=1743131068022",
-    // img_logo_list:""
+    img_logo_list:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Logo.png?updatedAt=1743269978929",
   },
   {
     name_partner: "Logo Ipsum",
     img_bg_list:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_19-removebg-preview.png?updatedAt=1743131068022",
-    // img_logo_list:""
+    img_logo_list:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Logo.png?updatedAt=1743269978929",
   },
   {
     name_partner: "Logo Ipsum",
     img_bg_list:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_19-removebg-preview.png?updatedAt=1743131068022",
-    // img_logo_list:""
+    img_logo_list:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Logo.png?updatedAt=1743269978929",
   },
   {
     name_partner: "Logo Ipsum",
     img_bg_list:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_19-removebg-preview.png?updatedAt=1743131068022",
-    // img_logo_list:""
+    img_logo_list:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Logo.png?updatedAt=1743269978929",
   },
   {
     name_partner: "Logo Ipsum",
     img_bg_list:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_19-removebg-preview.png?updatedAt=1743131068022",
-    // img_logo_list:""
+    img_logo_list:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Logo.png?updatedAt=1743269978929",
   },
   {
     name_partner: "Logo Ipsum",
     img_bg_list:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_19-removebg-preview.png?updatedAt=1743131068022",
-    // img_logo_list:""
+    img_logo_list:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Logo.png?updatedAt=1743269978929",
   },
   {
     name_partner: "Logo Ipsum",
     img_bg_list:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_19-removebg-preview.png?updatedAt=1743131068022",
-    // img_logo_list:""
+    img_logo_list:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Logo.png?updatedAt=1743269978929",
   },
   {
     name_partner: "Logo Ipsum",
     img_bg_list:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_19-removebg-preview.png?updatedAt=1743131068022",
-    // img_logo_list:""
+    img_logo_list:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Logo.png?updatedAt=1743269978929",
   },
   {
     name_partner: "Logo Ipsum",
     img_bg_list:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_19-removebg-preview.png?updatedAt=1743131068022",
-    // img_logo_list:""
+    img_logo_list:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Logo.png?updatedAt=1743269978929",
   },
   {
     name_partner: "Logo Ipsum",
     img_bg_list:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_19-removebg-preview.png?updatedAt=1743131068022",
-    // img_logo_list:""
+    img_logo_list:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Logo.png?updatedAt=1743269978929",
   },
   {
     name_partner: "Logo Ipsum",
     img_bg_list:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_19-removebg-preview.png?updatedAt=1743131068022",
-    // img_logo_list:""
+    img_logo_list:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Logo.png?updatedAt=1743269978929",
   },
 ];
 

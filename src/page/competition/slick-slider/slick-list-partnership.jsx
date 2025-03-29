@@ -19,8 +19,14 @@ export const Slick_Top_Partnership = () => {
     <div className="slider-container w-full overflow-hidden px-[230px] pt-20 ">
       <Slider {...settings}>
         {asset_list_partners.map((item, index) => (
-          <div key={index} className="focus:outline-none flex justify-center">
+          <div
+            key={index}
+            className="focus:outline-none flex justify-center relative"
+          >
             <img src={item?.img_bg_list} className="max-w-[220px] h-auto" />
+            <div className="flex justify-center items-center w-[90%]  h-full absolute top-0">
+              <img src={item?.img_logo_list} />
+            </div>
           </div>
         ))}
       </Slider>
@@ -48,8 +54,14 @@ export const Slick_Bottom_Partnership = () => {
     <div className="slider-container w-full overflow-hidden px-[230px] ">
       <Slider {...settings}>
         {asset_list_partners.map((item, index) => (
-          <div key={index} className="focus:outline-none flex justify-center">
+          <div
+            key={index}
+            className="focus:outline-none flex justify-center relative"
+          >
             <img src={item?.img_bg_list} className="max-w-[220px] h-auto" />
+            <div className="flex justify-center items-center w-[90%]  h-full absolute top-0">
+              <img src={item?.img_logo_list} />
+            </div>
           </div>
         ))}
       </Slider>
