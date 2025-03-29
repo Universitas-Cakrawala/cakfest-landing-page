@@ -1,17 +1,13 @@
 import { asset_prize_pool } from "../../assets/images";
-import { Noted } from "../../assets/noted";
 
 const PrizePool = () => {
   return (
-    <div className="w-screen h-screen">
+    <div className="w-full h-full">
       {asset_prize_pool.map((item, index) => {
         return (
           <div key={index} className="flex relative">
-            <img
-              src={item?.img_bg}
-              className="w-screen h-screen object-cover"
-            />
-            <div className="absolute flex flex-col items-center w-full h-full gap-2.5 z-10 pt-16">
+            <img src={item?.img_bg} className="w-full h-full" />
+            <div className="absolute flex flex-col items-center w-full h-full gap-2.5 pt-16">
               <img src={item?.img_coin} className="w-[152.23px] h-[152.23px]" />
               <div className="flex gap-2.5">
                 <h1 className="font-bold text-5xl">PRIZE POOL</h1>
@@ -28,9 +24,6 @@ const PrizePool = () => {
           </div>
         );
       })}
-      <div>
-        <Noted />
-      </div>
     </div>
   );
 };

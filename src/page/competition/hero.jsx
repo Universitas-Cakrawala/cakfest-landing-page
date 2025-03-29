@@ -2,14 +2,15 @@ import BackgroundHero from "../../assets/background-hero.png";
 import Astronot from "../../assets/astronot.png";
 import ListCompetition from "./list-competition";
 import PrizePool from "./prize-pool";
+import Our_Partnership from "./our-partnership";
 
 const Competition = () => {
   return (
     <>
-      <div className="flex flex-col w-full h-full">
+      <div className="flex flex-col w-screen h-screen">
         <img
           src={BackgroundHero}
-          className="relative w-full h-full object-cover"
+          className="relative w-screen h-screen object-cover"
         />
         <div className="flex flex-col items-center w-full absolute z-10 top-28">
           <div className="flex flex-col items-center">
@@ -18,10 +19,10 @@ const Competition = () => {
             </h1>
             <h2 className="font-normal text-5xl">Competition</h2>
           </div>
-          <div className="">
+          <div>
             <img src={Astronot} />
           </div>
-          <div className="">
+          <div>
             <svg
               width="624"
               height="122"
@@ -120,6 +121,7 @@ const Competition = () => {
       </div>
       <div>
         <PrizePool />
+        <Our_Partnership />
       </div>
     </>
   );
