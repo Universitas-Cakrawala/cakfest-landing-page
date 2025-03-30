@@ -8,6 +8,7 @@ import {
   Button_Contact_Us_Detail_Competition,
   Button_Guidebook_detail_competition,
 } from "../competition/button-svg";
+import Time_Line from "./time-line";
 
 const Hero_Detail_Competitions = () => {
   const location = useLocation();
@@ -15,7 +16,7 @@ const Hero_Detail_Competitions = () => {
   return (
     <>
       {asset_list_competition.find((item) => item.pathName === path) ? (
-        asset_list_competition.map((item, index) =>
+        asset_list_competition.map((item) =>
           item.pathName === path
             ? asset_detail_competition.map((asset, index) => {
                 const img_bg = asset?.img_bg;
@@ -37,6 +38,12 @@ const Hero_Detail_Competitions = () => {
                         <Button_Guidebook_detail_competition />
                         <Button_Contact_Us_Detail_Competition />
                       </div>
+                    </div>
+                    <div>
+                      <Time_Line
+                        path={item?.pathName}
+                        img_time_line={item?.img_time_line}
+                      />
                     </div>
                   </div>
                 );
