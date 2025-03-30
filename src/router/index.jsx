@@ -1,7 +1,7 @@
 import { useRoutes } from "react-router";
 import About from "../page/about/about";
 import Competition from "../page/competition/hero";
-import DetailsCompetitions from "../page/detail-competition/details-competitions";
+import Hero_Detail_Competitions from "../page/detail-competition/hero";
 
 function AppRoutes() {
   const routes = useRoutes([
@@ -9,7 +9,7 @@ function AppRoutes() {
     { path: "/about", element: <About />, id: "about" },
     {
       path: "/details-competitions",
-      element: <DetailsCompetitions />,
+      element: <Hero_Detail_Competitions />,
       id: "detail",
     },
   ]);
