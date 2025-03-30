@@ -114,7 +114,7 @@ export const asset_prize_pool = [
 ];
 export const asset_list_competition = [
   {
-    pathName: "/business-case",
+    pathName: "business-case",
     img_name_competition:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Business_Case_1-removebg-preview.png?updatedAt=1742836602639",
     img_bg_list:
@@ -125,7 +125,7 @@ export const asset_list_competition = [
       "Lorem ipsum dolor sit amet consectetur. Fusce lectus dui viverra aliquam ultrices quis lectus. Amet adipiscing arcu porta gravida proin. Id venenatis pulvinar laoreet tortor tortor nam cras eget. ",
   },
   {
-    pathName: "/Futsal",
+    pathName: "Futsal",
     img_name_competition:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Business_Case_1-removebg-preview.png?updatedAt=1742836602639",
     img_bg_list:
@@ -136,7 +136,7 @@ export const asset_list_competition = [
       "Lorem ipsum dolor sit amet consectetur. Fusce lectus dui viverra aliquam ultrices quis lectus. Amet adipiscing arcu porta gravida proin. Id venenatis pulvinar laoreet tortor tortor nam cras eget. ",
   },
   {
-    pathName: "/Olimpiade",
+    pathName: "Olimpiade",
     img_name_competition:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Business_Case_1-removebg-preview.png?updatedAt=1742836602639",
     img_bg_list:
@@ -147,7 +147,7 @@ export const asset_list_competition = [
       "Lorem ipsum dolor sit amet consectetur. Fusce lectus dui viverra aliquam ultrices quis lectus. Amet adipiscing arcu porta gravida proin. Id venenatis pulvinar laoreet tortor tortor nam cras eget. ",
   },
   {
-    pathName: "/Tari",
+    pathName: "Tari",
     img_name_competition:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Business_Case_1-removebg-preview.png?updatedAt=1742836602639",
     img_bg_list:

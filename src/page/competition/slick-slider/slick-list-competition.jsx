@@ -12,7 +12,7 @@ const Slick_List_Competition = () => {
   const handleClick = (path) => {
     if (getPath !== null) {
       setGetPath(path);
-      navigate(`/details-competitions/${path}`);
+      navigate("/details-competitions", { state: { path } });
       console.log(path);
     }
   };
