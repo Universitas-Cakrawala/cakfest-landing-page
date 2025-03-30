@@ -3,6 +3,7 @@ import Astronot from "../../assets/astronot.png";
 import ListCompetition from "./list-competition";
 import PrizePool from "./prize-pool";
 import Our_Partnership from "./our-partnership";
+import Contact_Us from "./contact-us";
 
 const Competition = () => {
   return (
@@ -122,6 +123,9 @@ const Competition = () => {
       <div>
         <PrizePool />
         <Our_Partnership />
+      </div>
+      <div>
+        <Contact_Us />
       </div>
     </>
   );

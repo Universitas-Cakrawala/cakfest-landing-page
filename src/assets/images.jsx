@@ -1,3 +1,11 @@
+export const asset_contact_us = [
+  {
+    img_bg:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background%20(5).jpg?updatedAt=1743270359496",
+    img_title:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/NEW%20LOGO%201.webp?updatedAt=1743277092436",
+  },
+];
 export const asset_partners = [
   {
     img_bg:
@@ -13,14 +21,14 @@ export const asset_list_partners = [
     img_bg_list:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_19-removebg-preview.png?updatedAt=1743131068022",
     img_logo_list:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Logo.png?updatedAt=1743269978929",
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/sdka-removebg-preview.png?updatedAt=1742968385052",
   },
   {
     name_partner: "Logo Ipsum",
     img_bg_list:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_19-removebg-preview.png?updatedAt=1743131068022",
     img_logo_list:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Logo.png?updatedAt=1743269978929",
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/sdka-removebg-preview.png?updatedAt=1742968385052",
   },
   {
     name_partner: "Logo Ipsum",
@@ -106,6 +114,7 @@ export const asset_prize_pool = [
 ];
 export const asset_list_competition = [
   {
+    pathName: "business-case",
     img_name_competition:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Business_Case_1-removebg-preview.png?updatedAt=1742836602639",
     img_bg_list:
@@ -114,10 +123,9 @@ export const asset_list_competition = [
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/logo-removebg-preview.png?updatedAt=1742836166393",
     description:
       "Lorem ipsum dolor sit amet consectetur. Fusce lectus dui viverra aliquam ultrices quis lectus. Amet adipiscing arcu porta gravida proin. Id venenatis pulvinar laoreet tortor tortor nam cras eget. ",
-    button:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Button-removebg-preview.png?updatedAt=1742839266768",
   },
   {
+    pathName: "Futsal",
     img_name_competition:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Business_Case_1-removebg-preview.png?updatedAt=1742836602639",
     img_bg_list:
@@ -126,10 +134,9 @@ export const asset_list_competition = [
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/logo-removebg-preview.png?updatedAt=1742836166393",
     description:
       "Lorem ipsum dolor sit amet consectetur. Fusce lectus dui viverra aliquam ultrices quis lectus. Amet adipiscing arcu porta gravida proin. Id venenatis pulvinar laoreet tortor tortor nam cras eget. ",
-    button:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Button-removebg-preview.png?updatedAt=1742839266768",
   },
   {
+    pathName: "Olimpiade",
     img_name_competition:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Business_Case_1-removebg-preview.png?updatedAt=1742836602639",
     img_bg_list:
@@ -138,10 +145,9 @@ export const asset_list_competition = [
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/logo-removebg-preview.png?updatedAt=1742836166393",
     description:
       "Lorem ipsum dolor sit amet consectetur. Fusce lectus dui viverra aliquam ultrices quis lectus. Amet adipiscing arcu porta gravida proin. Id venenatis pulvinar laoreet tortor tortor nam cras eget. ",
-    button:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Button-removebg-preview.png?updatedAt=1742839266768",
   },
   {
+    pathName: "Tari",
     img_name_competition:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Business_Case_1-removebg-preview.png?updatedAt=1742836602639",
     img_bg_list:
@@ -150,7 +156,5 @@ export const asset_list_competition = [
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/logo-removebg-preview.png?updatedAt=1742836166393",
     description:
       "Lorem ipsum dolor sit amet consectetur. Fusce lectus dui viverra aliquam ultrices quis lectus. Amet adipiscing arcu porta gravida proin. Id venenatis pulvinar laoreet tortor tortor nam cras eget. ",
-    button:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Button-removebg-preview.png?updatedAt=1742839266768",
   },
 ];
