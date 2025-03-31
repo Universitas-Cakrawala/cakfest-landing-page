@@ -1,5 +1,6 @@
 import { asset_time_line } from "../../assets/images";
 import { Noted } from "../../assets/noted";
+import Contact_Us from "../competition/contact-us";
 
 const Time_Line = ({ path, img_time_line }) => {
   return (
@@ -24,6 +25,7 @@ const Time_Line = ({ path, img_time_line }) => {
         );
       })}
       <Noted />
+      <Contact_Us />
     </div>
   );
 };
