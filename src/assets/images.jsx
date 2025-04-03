@@ -1,3 +1,13 @@
+export const asset_footer = [
+  {
+    img_tiktok:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20components/Group%20(2).webp?updatedAt=1743396604978",
+    img_instagram:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20components/Group%20(3).webp?updatedAt=1743396656406",
+    img_whatsapp:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20components/Group%20(4).webp?updatedAt=1743396667391",
+  },
+];
 export const asset_time_line = [
   {
     img_bg:
@@ -9,7 +19,7 @@ export const asset_time_line = [
 export const asset_contact_us = [
   {
     img_bg:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background%20(5).jpg?updatedAt=1743270359496",
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background%20(1)%20(1).webp?updatedAt=1743396237192",
     img_title:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/NEW%20LOGO%201.webp?updatedAt=1743277092436",
   },
