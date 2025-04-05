@@ -10,13 +10,16 @@ const Competition = () => {
       {asset_competition.map((asset, index) => {
         return (
           <>
-            <div className="flex flex-col w-screen h-screen" key={index}>
+            <div
+              className="flex flex-col w-full min-h-screen relative"
+              key={index}
+            >
               <img
                 src={asset?.img_bg_hero}
-                className="relative w-screen h-screen object-cover"
+                className="absolute w-full h-full object-cover"
               />
 
-              <div className="flex flex-col items-center w-full absolute z-10 top-28">
+              <div className="flex flex-col items-center w-full h-full z-1 pb-12 pt-40">
                 <div className="flex flex-col items-center">
                   <img src={asset?.img_title_hero} />
                 </div>

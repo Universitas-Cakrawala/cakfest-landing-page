@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 import LogoCakfest from "../../../assets/logo-cakfest.png";
-import { useNavigate } from "react-router";
-import { onClickNav } from "../../../helper/onclick-navbar";
+import { Link, useLocation } from "react-router";
+
 const Header = () => {
+  const { pathname } = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
-  const navigate = useNavigate();
-  const [activeUnderline, setActiveUnderline] = useState("/");
   const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
@@ -25,35 +24,29 @@ const Header = () => {
     >
       <div className="">
         <div className="flex w-full justify-between">
-          <img src={LogoCakfest} />
+          <Link to="/">
+            <img src={LogoCakfest} />
+          </Link>
           <ul className="flex items-center gap-[40px]">
             <li>
-              <a
+              <Link
                 className={`cursor-pointer font-semibold font-xl hover:underline underline-offset-8 ${
-                  activeUnderline === "/" ? "underline underline-offset-8" : ""
+                  pathname === "/" ? "underline underline-offset-8" : ""
                 }`}
-                onClick={() => {
-                  onClickNav({ path: "/", navigate });
-                  setActiveUnderline("/");
-                }}
+                to="/"
               >
                 Competition
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className={`cursor-pointer font-semibold font-xl hover:underline underline-offset-8 ${
-                  activeUnderline === "/about"
-                    ? "underline underline-offset-8"
-                    : ""
+                  pathname === "/about" ? "underline underline-offset-8" : ""
                 }`}
-                onClick={() => {
-                  onClickNav({ path: "/about", navigate });
-                  setActiveUnderline("/about");
-                }}
+                to="/about"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
               <a

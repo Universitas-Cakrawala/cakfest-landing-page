@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router";
-import { onClickNav } from "../../../helper/onclick-navbar";
+import { Link, useNavigate } from "react-router";
 
 export const Button_Contact_Us_Detail_Competition = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -66,20 +65,15 @@ export const Button_Guidebook_detail_competition = () => {
 
 export const Button_About_Competition = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const navigate = useNavigate();
+
   return (
-    <a
+    <Link
       className="cursor-pointer"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      onClick={() => {
-        onClickNav({ path: "/about", navigate });
-      }}
+      to="/about"
     >
       <svg
-        onClick={() => {
-          onCLik;
-        }}
         width="294"
         height="61"
         viewBox="0 0 294 61"
@@ -97,7 +91,7 @@ export const Button_About_Competition = () => {
           fill={isHovered ? "#591266" : "#FFFAEB"}
         />
       </svg>
-    </a>
+    </Link>
   );
 };
 
@@ -136,29 +130,13 @@ export const Button_Contact_Us_Competition = () => {
 
 export const Button_List_Competition = ({ item }) => {
   const [isHovered, setIsHovered] = useState(false);
-  const [getPathOnHover, setGetPathOnHover] = useState("/");
-  const [getPath, setGetPath] = useState("/");
-  const navigate = useNavigate();
-
-  const handleClick = (path) => {
-    if (getPath !== null) {
-      setGetPath(path);
-      navigate("/details-competitions", { state: { path } });
-      console.log(path);
-    }
-  };
-
   return (
-    <a
+    <Link
       className="cursor-pointer"
-      onMouseEnter={() => {
-        setIsHovered(true);
-        setGetPathOnHover(item?.pathName);
-      }}
+      onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      onClick={() => {
-        handleClick(item?.pathName);
-      }}
+      to="/details-competitions"
+      state={{ path: item.pathName }}
     >
       <svg
         width="125"
@@ -188,11 +166,7 @@ export const Button_List_Competition = ({ item }) => {
             fillRule="evenodd"
             clipRule="evenodd"
             d="M8 0H117V4H121V8H125V35H121V39H117V43H8V39H4V35H0V8H4V4H8V0Z"
-            fill={
-              isHovered && getPathOnHover === item?.pathName
-                ? "#591266"
-                : "#7D1990"
-            }
+            fill={isHovered ? "#591266" : "#7D1990"}
           />
           <rect x="8" y="39" width="109" height="4" fill="#591266" />
           <rect x="117" y="35" width="4" height="4" fill="#591266" />
@@ -227,6 +201,6 @@ export const Button_List_Competition = ({ item }) => {
           />
         </g>
       </svg>
-    </a>
+    </Link>
   );
 };
