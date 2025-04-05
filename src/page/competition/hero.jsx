@@ -13,7 +13,7 @@ const Competition = () => {
             <div className="flex flex-col w-screen h-screen" key={index}>
               <img
                 src={asset?.img_bg_hero}
-                className="relative w-screen h-screen"
+                className="relative w-screen h-screen object-cover"
               />
 
               <div className="flex flex-col items-center w-full absolute z-10 top-28">
