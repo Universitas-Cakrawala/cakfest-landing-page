@@ -7,10 +7,10 @@ const Slick_List_Competition = () => {
     className: "center",
     centerMode: true,
     infinite: true,
-    centerPadding: "320px",
+    centerPadding: "340px",
     slidesToShow: 1,
     slideToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     arrows: false,
     cssEase: "linear",
     autoplaySpeed: 3000,
@@ -43,7 +43,7 @@ const Slick_List_Competition = () => {
                     <p className="font-normal text-xs text-center text-black w-[340px] h-[65px] overflow-hidden line-clamp-4">
                       {description}
                     </p>
-                    <Button_List_Competition />
+                    <Button_List_Competition item={item} />
                   </div>
                 </div>
               </div>
