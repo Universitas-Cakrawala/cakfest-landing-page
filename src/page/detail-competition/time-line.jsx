@@ -5,6 +5,7 @@ import Contact_Us from "../competition/contact-us";
 const Time_Line = ({ path, img_time_line }) => {
   return (
     <div className="w-full h-full">
+      <Noted />
       {asset_time_line.map((item, index) => {
         return (
           <div key={index} className="flex w-full h-full relative">
