@@ -244,3 +244,12 @@ export const asset_competition = [
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/piala.webp?updatedAt=1743826591771",
   },
 ];
+
+export const asset_about = [
+  {
+    img_bg:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/background%20(2).webp?updatedAt=1743837157515",
+    img_title:
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/NEW%20LOGO%201.webp?updatedAt=1743277092436",
+  },
+];
