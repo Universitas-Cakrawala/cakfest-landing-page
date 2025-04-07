@@ -230,17 +230,26 @@ export const asset_list_competition = [
   },
 ];
 
-export const asset_competition = [
-  {
-    img_bg_hero:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background-hero.webp?updatedAt=1743826380687",
-    img_title_hero:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group%2011.webp?updatedAt=1743826173610",
-    img_astronot_hero:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Astronot.webp?updatedAt=1743826448597",
-    img_bg_competition:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background-list-competition.webp?updatedAt=1743826549907",
-    img_piala:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/piala.webp?updatedAt=1743826591771",
-  },
-];
+export const asset_competition = {
+  img_bg_hero_hp:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background_4x.webp?updatedAt=1743847193608",
+  img_bg_hero_tablet:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background%20(3).webp?updatedAt=1743846637751",
+  img_bg_hero_desktop:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background-hero.webp?updatedAt=1743826380687",
+  img_title_hero:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group%2011.webp?updatedAt=1743826173610",
+  img_astronot_hero:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Astronot.webp?updatedAt=1743826448597",
+  img_bg_competition:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background-list-competition.webp?updatedAt=1743826549907",
+  img_piala:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/piala.webp?updatedAt=1743826591771",
+};
+
+export const asset_about = {
+  img_bg:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/background%20(2).webp?updatedAt=1743837157515",
+  img_title:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/NEW%20LOGO%201.webp?updatedAt=1743277092436",
+};
