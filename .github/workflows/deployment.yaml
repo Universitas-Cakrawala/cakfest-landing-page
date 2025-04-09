@@ -30,9 +30,9 @@ jobs:
             git pull &&
             npm install &&
             npm run build &&
-            pm2 stop cakfest-landing-page &&
-            pm2 del cakfest-landing-page &&
-            pm2 save &&
+            # pm2 stop cakfest-landing-page &&
+            # pm2 del cakfest-landing-page &&
+            # pm2 save &&
             npm run pm2:preview &&
             pm2 save
           "
