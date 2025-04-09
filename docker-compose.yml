@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vite-app:
+    build:
+      context: .
+      dockerfile: Dockerfile   
+    container_name: cakfest 
+    ports:
+      - "4173:4173"
+    restart: unless-stopped
+

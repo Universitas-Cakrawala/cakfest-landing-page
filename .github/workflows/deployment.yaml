@@ -30,9 +30,11 @@ jobs:
             git pull &&
             npm install &&
             npm run build &&
+            rm -rf /home/sga-cakrawala/.pm2/logs/cakfest-landing-page-error.log &&
+            rm -rf /home/sga-cakrawala/.pm2/logs/cakfest-landing-page-out.log &&
             pm2 stop cakfest-landing-page &&
             pm2 del cakfest-landing-page &&
             pm2 save &&
-            npm run pm2:preview &&
-            pm2 save
+            npm run pm2:start &&
+            pm2 save # save again
           "
