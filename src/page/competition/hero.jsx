@@ -14,7 +14,6 @@ const Competition = () => {
           sizes="(max-width: 834px) 375px, (max-width: 1200px) 834px, 1200px"
           className="relative w-screen h-screen object-cover"
         />
-
         <div className="flex flex-col items-center w-full absolute z-10 top-28">
           <div className="flex flex-col items-center">
             <img src={asset_competition.img_title_hero} />

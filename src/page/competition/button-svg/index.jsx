@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { useNavigate } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import { onClickNav } from "../../../helper/onclick-navbar";
+import { useEffect } from "react";
 
 export const Button_Contact_Us_Detail_Competition = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -65,10 +66,15 @@ export const Button_Guidebook_detail_competition = () => {
 };
 
 export const Button_About_Competition = () => {
+  const location = useLocation();
   const [isHovered, setIsHovered] = useState(false);
   const navigate = useNavigate();
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [location]);
   return (
-    <a
+    <Link
+      to="/about"
       className="cursor-pointer"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -97,7 +103,7 @@ export const Button_About_Competition = () => {
           fill={isHovered ? "#591266" : "#FFFAEB"}
         />
       </svg>
-    </a>
+    </Link>
   );
 };
 

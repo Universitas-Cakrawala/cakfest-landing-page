@@ -1,15 +1,18 @@
 import { asset_about } from "../../assets/images";
 import Contact_Us from "../competition/contact-us";
+import VisiMisi from "./visi-misi";
 
 const About = () => {
   return (
     <>
-      <div className="w-screen h-screen relative flex justify-center pt-72">
-        {console.log(asset_about.img_bg)}
-        <img src={asset_about.img_bg} className="absolute w-screen h-screen" />
-        <div className="relative z-2 ">
+      <div className="w-screen h-screen relative flex justify-center">
+        <img
+          src={asset_about.img_bg_hero}
+          className="absolute w-screen h-screen object-cover"
+        />
+        <div className="relative z-2 flex flex-col items-center w-full h-full gap-16 pt-[280px]">
           <img src={asset_about.img_title} className="w-[840px] h-[237px]" />
-          <div className="font-medium text-2xl w-full px-[120px] flex flex-col gap-10 text-center">
+          <div className="font-medium text-2xl w-[1272px] flex flex-col gap-4 text-center">
             <p>
               Cakrawala Festival hadir sebagai ajang bagi siswa dan mahasiswa
               untuk mengasah kreativitas, membangun kepercayaan diri, serta
@@ -26,6 +29,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <VisiMisi />
       <div>
         <Contact_Us />
       </div>

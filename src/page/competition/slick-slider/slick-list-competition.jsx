@@ -10,7 +10,7 @@ const Slick_List_Competition = () => {
     centerPadding: "340px",
     slidesToShow: 1,
     slideToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     arrows: false,
     cssEase: "linear",
     autoplaySpeed: 3000,

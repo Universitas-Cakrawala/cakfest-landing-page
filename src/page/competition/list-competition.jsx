@@ -15,7 +15,7 @@ const ListCompetition = () => {
         <img src={asset_competition.img_piala} className="w-36 h-36" />
         <div className="flex gap-2.5">
           <h1 className="font-bold text-5xl text-[#FFFAEB]">CHALLENGE</h1>
-          <h2 className="font-bold text-5xl text-[#FDC833]">YOUR SKILLS!</h2>
+          <h1 className="font-bold text-5xl text-[#FDC833]">YOUR SKILLS!</h1>
         </div>
         <div className="w-[620px] text-center">
           <p className="font-medium text-2xl">
