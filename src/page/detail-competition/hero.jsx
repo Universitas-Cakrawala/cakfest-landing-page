@@ -19,6 +19,7 @@ const Hero_Detail_Competitions = () => {
           item.pathName === path
             ? asset_detail_competition.map((asset, index) => {
                 const img_bg = asset?.img_bg;
+                const contact_pic = item?.contact_pic;
                 return (
                   <div key={index}>
                     <div className="w-screen h-screen relative">
@@ -35,8 +36,11 @@ const Hero_Detail_Competitions = () => {
                           <p>{item?.description2}</p>
                         </div>
                         <div className="flex gap-8">
+                          {console.log(contact_pic, "nomor kontol")}
                           <Button_Guidebook_detail_competition />
-                          <Button_Contact_Us_Detail_Competition />
+                          <Button_Contact_Us_Detail_Competition
+                            contact_pic={contact_pic}
+                          />
                         </div>
                       </div>
                     </div>

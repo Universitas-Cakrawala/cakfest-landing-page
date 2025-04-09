@@ -152,6 +152,7 @@ export const asset_list_competition = [
       "Kompetisi ini memberikan kesempatan kepada peserta untuk mengkaji studi kasus bisnis nyata, mengidentifikasi permasalahan, mengevaluasi berbagai alternatif solusi, serta merumuskan strategi berkelanjutan dalam bidang manajemen keuangan, pemasaran, operasional, dan sumber daya manusia. ",
     img_time_line:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Group%2063.webp?updatedAt=1743342805844",
+    contact_pic: "+62 813-8702-7254",
   },
   {
     pathName: "FUTSAL",
@@ -167,6 +168,7 @@ export const asset_list_competition = [
       "Segera siapkan tim terbaikmu, asah strategi, dan tunjukkan bahwa kalian adalah yang terkuat di lapangan. Apakah timmu siap membawa pulang gelar juara? Saatnya buktikan! 🏆🔥",
     img_time_line:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Futsal.webp?updatedAt=1743368697415",
+    contact_pic: "6282370812995",
   },
   {
     pathName: "OLIMPIADE",
@@ -182,6 +184,7 @@ export const asset_list_competition = [
       "Melalui olimpiade ini, kami berharap dapat mendorong semangat belajar yang lebih tinggi di kalangan siswa serta memberikan pengalaman berharga dalam mengikuti kompetisi akademik.",
     img_time_line:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Olimpiade.webp?updatedAt=1743368616081",
+    contact_pic: "6285814569968",
   },
   {
     pathName: "TARI",
@@ -197,6 +200,7 @@ export const asset_list_competition = [
       "Persiapkan formasi terbaikmu, latih koordinasi dan kecepatan gerakan, serta bawakan tarian ini dengan penuh semangat! Inilah kesempatan untuk menunjukkan bahwa timmu mampu memukau panggung dengan harmoni dan kekuatan gerakan. Apakah timmu siap mengguncang panggung dengan keindahan Tari Ratoeh Jaroe? Saatnya bersatu dalam ritme dan tunjukkan yang terbaik! ✨🏆",
     img_time_line:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Tari.webp?updatedAt=1743368787356",
+    contact_pic: "6282114640094",
   },
   {
     pathName: "STOCK EXCHANGE",
@@ -212,6 +216,7 @@ export const asset_list_competition = [
       "Kompetisi ini memberikan pengalaman praktis tanpa risiko finansial nyata, sehingga sangat bermanfaat bagi pemula maupun calon investor untuk mempelajari seluk-beluk investasi. Selain itu, kompetisi ini juga sering menjadi ajang kolaborasi, inovasi, dan pembelajaran bagi para peserta dalam memahami dinamika pasar saham yang kompleks.",
     img_time_line:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Stock%20Exchange%20(1).webp?updatedAt=1743343522883",
+    contact_pic: "6283898433544",
   },
   {
     pathName: "MOBILE LEGENDS",
@@ -227,6 +232,7 @@ export const asset_list_competition = [
       "Kumpulkan squad terbaikmu, susun strategi yang tak terduga, dan bersiaplah mendominasi! Apakah timmu siap menguasai arena dan membawa pulang titel juara? Tantangan sudah dimulai, saatnya bertarung! 🏆🔥",
     img_time_line:
       "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Mobile%20Legend.webp?updatedAt=1743368742772",
+    contact_pic: "6285697747439",
   },
 ];
 
