@@ -35,6 +35,6 @@ jobs:
             pm2 stop cakfest-landing-page &&
             pm2 del cakfest-landing-page &&
             pm2 save &&
-            npm run pm2:preview &&
+            npm run pm2:start &&
             pm2 save # save again
           "
