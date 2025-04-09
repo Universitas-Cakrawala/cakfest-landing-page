@@ -248,8 +248,14 @@ export const asset_competition = {
 };
 
 export const asset_about = {
-  img_bg:
-    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/background%20(2).webp?updatedAt=1743837157515",
+  img_bg_visi_misi:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/background_visi_misi.png?updatedAt=1744032562478",
+  img_bg_hero:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/background%20(8).png?updatedAt=1744098407891",
   img_title:
     "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/NEW%20LOGO%201.webp?updatedAt=1743277092436",
+  img_telescope:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/telescope.png?updatedAt=1744032316064",
+  img_bg_misi:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/Group%2069%20(1).png?updatedAt=1744177506915",
 };
