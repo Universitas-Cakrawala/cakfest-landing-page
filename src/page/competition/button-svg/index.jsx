@@ -3,13 +3,15 @@ import { Link, useLocation, useNavigate } from "react-router";
 import { onClickNav } from "../../../helper/onclick-navbar";
 import { useEffect } from "react";
 
-export const Button_Contact_Us_Detail_Competition = () => {
+export const Button_Contact_Us_Detail_Competition = ({ contact_pic }) => {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <a
       className="cursor-pointer"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      href={`https://api.whatsapp.com/send?phone=${contact_pic}`}
+      target="_blank"
     >
       <svg
         width="294"
