@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "pm2:preview": "pm2 start vite --name 'cakfest-landing-page' -- --port 8267 preview"
+    "pm2:start": "pm2 --name cakfest-landing-page serve dist/ 8266"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.8",
