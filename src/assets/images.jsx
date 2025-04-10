@@ -131,12 +131,11 @@ export const asset_prize_pool = [
   },
 ];
 
-export const asset_detail_competition = [
-  {
-    img_bg:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/background.webp?updatedAt=1743323118861",
-  },
-];
+export const asset_detail_competition = {
+  img_bg:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/background.webp?updatedAt=1743323118861",
+};
+
 export const asset_list_competition = [
   {
     pathName: "BUSINESS CASE",
