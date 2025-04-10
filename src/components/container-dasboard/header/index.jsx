@@ -1,10 +1,15 @@
 import { useEffect, useState } from "react";
 import LogoCakfest from "../../../assets/logo-cakfest.png";
-import { Link, useLocation } from "react-router";
-
+import { useLocation, useNavigate } from "react-router";
+import { onClickNav } from "../../../helper/onclick-navbar";
 const Header = () => {
   const { pathname } = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [activeUnderline, setActiveUnderline] = useState(
+    window.location.pathname
+  );
   const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
@@ -15,6 +20,10 @@ const Header = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  useEffect(() => {
+    setActiveUnderline(location.pathname);
+  }, [location.pathname]);
 
   return (
     <div
