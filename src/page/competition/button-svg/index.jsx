@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router";
-import { onClickNav } from "../../../helper/onclick-navbar";
 import { useEffect } from "react";
 
 export const Button_Contact_Us_Detail_Competition = ({ contact_pic }) => {
@@ -80,7 +79,6 @@ export const Button_About_Competition = () => {
       className="cursor-pointer"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      to="/about"
     >
       <svg
         width="294"

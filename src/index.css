@@ -1,12 +1,8 @@
 @import "tailwindcss";
 
-@layer base {
-  h1 {
-    font-family: "Pixelify Sans", sans-serif;
-  }
-}
 @theme {
-  --font-sans: "Plus Jakarta Sans", sans-serif;
+  /* --font-sans: "Plus Jakarta Sans", sans-serif; */
+  --font-sans: "Pixelify Sans", sans-serif;
 }
 
 @keyframes marquee {
