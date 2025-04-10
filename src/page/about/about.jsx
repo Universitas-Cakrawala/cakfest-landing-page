@@ -5,14 +5,14 @@ import VisiMisi from "./visi-misi";
 const About = () => {
   return (
     <>
-      <div className="w-screen h-screen relative flex justify-center">
+      <div className="w-full min-h-screen relative flex justify-center">
         <img
           src={asset_about.img_bg_hero}
-          className="absolute w-screen h-screen object-cover"
+          className="absolute w-full h-full object-cover"
         />
-        <div className="relative z-2 flex flex-col items-center w-full h-full gap-16 pt-[280px]">
+        <div className="relative z-2 flex flex-col items-center w-full h-full gap-16 py-64">
           <img src={asset_about.img_title} className="w-[840px] h-[237px]" />
-          <div className="font-medium text-2xl w-[1272px] flex flex-col gap-4 text-center">
+          <div className="font-medium text-2xl w-full max-w-[1272px] space-y-6 text-center">
             <p>
               Cakrawala Festival hadir sebagai ajang bagi siswa dan mahasiswa
               untuk mengasah kreativitas, membangun kepercayaan diri, serta
@@ -30,9 +30,7 @@ const About = () => {
         </div>
       </div>
       <VisiMisi />
-      <div>
-        <Contact_Us />
-      </div>
+      <Contact_Us />
     </>
   );
 };

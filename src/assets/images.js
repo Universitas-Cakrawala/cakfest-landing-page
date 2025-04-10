@@ -252,7 +252,7 @@ export const asset_competition = {
 
 export const asset_about = {
   img_bg_visi_misi:
-    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/background_visi_misi.png?updatedAt=1744032562478",
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/background%20(7).png?updatedAt=1744098456174",
   img_bg_hero:
     "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/background%20(8).png?updatedAt=1744098407891",
   img_title:
