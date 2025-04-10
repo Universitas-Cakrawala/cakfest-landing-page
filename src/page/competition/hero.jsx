@@ -7,14 +7,14 @@ import { asset_competition } from "../../assets/images";
 const Competition = () => {
   return (
     <>
-      <div className="flex flex-col w-screen h-screen">
+      <div className="flex flex-col w-full min-h-screen relative">
         <img
           src={asset_competition.img_bg_hero_desktop}
           srcSet={`${asset_competition.img_bg_hero_desktop} 1200w, ${asset_competition.img_bg_hero_tablet} 834w, ${asset_competition.img_bg_hero_hp} 375w`}
           sizes="(max-width: 834px) 375px, (max-width: 1200px) 834px, 1200px"
-          className="relative w-screen h-screen object-cover"
+          className="absolute w-full h-full object-cover"
         />
-        <div className="flex flex-col items-center w-full absolute z-10 top-28">
+        <div className="flex flex-col items-center w-full h-full z-1 pb-12 pt-40">
           <div className="flex flex-col items-center">
             <img src={asset_competition.img_title_hero} />
           </div>
