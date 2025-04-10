@@ -48,7 +48,9 @@ const Hero_Detail_Competitions = () => {
         </div>
         <div className="flex gap-8">
           <Button_Guidebook_detail_competition />
-          <Button_Contact_Us_Detail_Competition />
+          <Button_Contact_Us_Detail_Competition
+            contact_pic={competition.contact_pic}
+          />
         </div>
       </div>
       <Time_Line
