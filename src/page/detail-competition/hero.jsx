@@ -30,34 +30,36 @@ const Hero_Detail_Competitions = () => {
     );
 
   return (
-    <div className="w-full h-full min-h-screen relative">
-      <img
-        src={asset_detail_competition.img_bg}
-        className="w-full h-full absolute object-cover object-bottom"
-      />
-      <div className="flex flex-col items-center w-full py-44 gap-16 z-1 relative">
-        <div className="text-center">
-          <h1 className="font-bold text-5xl text-[#FDC833]">
-            {competition.pathName}
-          </h1>
-          <h1 className="font-normal text-5xl">Competition</h1>
-        </div>
-        <div className="text-center font-normal text-2xl px-52 gap-4 flex flex-col">
-          <p>{competition.description1}</p>
-          <p>{competition.description2}</p>
-        </div>
-        <div className="flex gap-8">
-          <Button_Guidebook_detail_competition />
-          <Button_Contact_Us_Detail_Competition
-            contact_pic={competition.contact_pic}
-          />
+    <>
+      <div className="w-full h-full min-h-screen relative">
+        <img
+          src={asset_detail_competition.img_bg}
+          className="w-full h-full absolute object-cover object-bottom"
+        />
+        <div className="flex flex-col items-center w-full py-44 gap-16 z-1 relative">
+          <div className="text-center">
+            <h1 className="font-bold text-5xl text-[#FDC833]">
+              {competition.pathName}
+            </h1>
+            <h1 className="font-normal text-5xl">Competition</h1>
+          </div>
+          <div className="text-center font-normal text-2xl px-52 gap-4 flex flex-col">
+            <p>{competition.description1}</p>
+            <p>{competition.description2}</p>
+          </div>
+          <div className="flex gap-8">
+            <Button_Guidebook_detail_competition />
+            <Button_Contact_Us_Detail_Competition
+              contact_pic={competition.contact_pic}
+            />
+          </div>
         </div>
       </div>
       <Time_Line
         path={competition.pathName}
         img_time_line={competition.img_time_line}
       />
-    </div>
+    </>
   );
 };
 export default Hero_Detail_Competitions;

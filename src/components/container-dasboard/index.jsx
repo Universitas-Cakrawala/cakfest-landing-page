@@ -1,4 +1,4 @@
-import AppRoutes from "../../router";
+import { Outlet, ScrollRestoration } from "react-router";
 import Footer from "./footer";
 import Header from "./header";
 
@@ -8,9 +8,10 @@ const ContainerDashboard = () => {
       {/* Header */}
       <Header />
       {/* Body / Page */}
-      <AppRoutes />
+      <Outlet />
       {/* Footer */}
       <Footer />
+      <ScrollRestoration />
     </div>
   );
 };

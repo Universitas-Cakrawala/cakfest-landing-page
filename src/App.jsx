@@ -1,14 +1,9 @@
-import { BrowserRouter } from "react-router";
-import ContainerDashboard from "./components/container-dasboard";
+import AppRoutes from "./router";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <ContainerDashboard />
-    </BrowserRouter>
-  );
+  return <AppRoutes />;
 }
 
 export default App;
