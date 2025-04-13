@@ -4,11 +4,13 @@ import Header from "./header";
 
 const ContainerDashboard = () => {
   return (
-    <div className="flex flex-col bg-[#571265] w-full h-full text-white relative">
+    <div className="text-white">
       {/* Header */}
       <Header />
       {/* Body / Page */}
-      <Outlet />
+      <main className="flex flex-col bg-[#571265] w-full h-full">
+        <Outlet />
+      </main>
       {/* Footer */}
       <Footer />
       <ScrollRestoration />
