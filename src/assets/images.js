@@ -116,16 +116,14 @@ export const asset_list_partners = [
   },
 ];
 
-export const asset_prize_pool = [
-  {
-    img_bg:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background%20(4).jpg?updatedAt=1743151643282",
-    img_prize:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_20-removebg-preview.png?updatedAt=1742922780688",
-    img_coin:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/sdka__4___1_-removebg-preview.png?updatedAt=1742923410577",
-  },
-];
+export const asset_prize_pool = {
+  img_bg:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background%20(4).jpg?updatedAt=1743151643282",
+  img_prize:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_20-removebg-preview.png?updatedAt=1742922780688",
+  img_coin:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/sdka__4___1_-removebg-preview.png?updatedAt=1742923410577",
+};
 
 export const asset_detail_competition = {
   img_bg:
