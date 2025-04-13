@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 import LogoCakfest from "../../../assets/logo-cakfest.png";
 import { Link, useLocation } from "react-router";
+import { useMobileMenu } from "../../../contexts/mobile-navigation-context";
+import MobileMenu from "../mobile-menu";
 
 const Header = () => {
   const { pathname } = useLocation();
+  const { toggleSidebar } = useMobileMenu();
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -95,7 +98,11 @@ const Header = () => {
             </a>
           </li>
         </ul>
-        <button aria-label="Toggle Mobile Menu" className="size-8 md:hidden">
+        <button
+          aria-label="Toggle Mobile Menu"
+          className="size-8 md:hidden"
+          onClick={toggleSidebar}
+        >
           <svg
             className="size-full"
             viewBox="0 0 30 30"
@@ -145,6 +152,8 @@ const Header = () => {
           </svg>
         </button>
       </div>
+      {/* Mobile Sidebar */}
+      <MobileMenu />
     </div>
   );
 };

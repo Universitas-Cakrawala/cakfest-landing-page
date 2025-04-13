@@ -45,9 +45,8 @@ export const Slick_Partnership = ({ rtl = false }) => {
     <div className="slider-container w-full overflow-hidden lg:px-32 py-10">
       <Slider {...settings} className="h-full" adaptiveHeight>
         {asset_list_partners.map((item, index) => (
-          <div className="px-2">
+          <div className="px-2" key={index}>
             <div
-              key={index}
               className="focus:outline-none w-full-full h-38 grid place-items-center relative py-10 px-24 lg:px-10"
               aria-label={item.name_partner}
             >
