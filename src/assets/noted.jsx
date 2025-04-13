@@ -4,7 +4,7 @@ export const Noted = () => {
   // Fungsi untuk looping teks
   const LoopTeks = () => {
     return Array.from({ length: 10 }).map((_, i) => (
-      <span key={i} className="text-lg mx-1.5">
+      <span key={i} className="text-lg mx-1.5 font-jakarta-sans">
         Tunjukkan bakat dan kreativitas kamu di berbagai kompetisi seru. Mari
         bergabung dan nantikan kejutannya! 😎
       </span>

@@ -108,10 +108,10 @@ const Competition = () => {
             </svg>
           </div>
           <div className="pt-6">
-            <span className="font-medium text-2xl w-[619px] flex text-center">
+            <p className="font-medium text-2xl w-[619px] flex text-center font-jakarta-sans">
               Tunjukkan bakat dan kreativitas kamu di berbagai kompetisi seru.
               Mari bergabung dan nantikan kejutannya!
-            </span>
+            </p>
           </div>
         </div>
       </div>

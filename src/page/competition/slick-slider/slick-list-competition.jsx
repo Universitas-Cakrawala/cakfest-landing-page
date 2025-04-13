@@ -20,10 +20,36 @@ const Slick_List_Competition = () => {
     pauseOnHover: true,
     speed: 500,
     afterChange: setCurrentSlide,
+    responsive: [
+      {
+        breakpoint: 1600,
+        settings: {
+          centerPadding: "240px",
+        }
+      },
+      {
+        breakpoint: 1400,
+        settings: {
+          centerPadding: "140px",
+        }
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          centerPadding: "80px",
+        }
+      },
+      {
+        breakpoint: 830,
+        settings: {
+          centerPadding: "0px",
+        }
+      }
+    ]
   };
 
   return (
-    <div className="slider-container w-screen overflow-hidden px-32 py-10">
+    <div className="slider-container w-screen overflow-hidden lg:px-32 py-10">
       <Slider {...settings}>
         {asset_list_competition.map((item, index) => {
           const {
@@ -36,7 +62,7 @@ const Slick_List_Competition = () => {
           return (
             <div
               key={index}
-              className={`relative h-[270px] w-[640px] px-5 transition-opacity hover:opacity-100 ${
+              className={`relative size-full px-5 transition-opacity hover:opacity-100 ${
                 index === currentSlide ? "opacity-100" : "opacity-50"
               }`}
             >
@@ -52,7 +78,7 @@ const Slick_List_Competition = () => {
                       className="h-[70px] w-[190px]"
                       src={img_name_competition}
                     />
-                    <p className="font-normal text-xs text-center text-black w-[340px] h-[65px] overflow-hidden line-clamp-4">
+                    <p className="font-normal font-jakarta-sans text-xs text-center text-black w-full h-full overflow-hidden line-clamp-4">
                       {description}
                     </p>
                     <Button_List_Competition item={item} />

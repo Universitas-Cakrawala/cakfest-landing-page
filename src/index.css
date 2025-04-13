@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  /* --font-sans: "Plus Jakarta Sans", sans-serif; */
+  --font-jakarta-sans: "Plus Jakarta Sans", sans-serif;
   --font-sans: "Pixelify Sans", sans-serif;
 }
 
