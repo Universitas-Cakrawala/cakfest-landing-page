@@ -25,31 +25,31 @@ const Slick_List_Competition = () => {
         breakpoint: 1600,
         settings: {
           centerPadding: "240px",
-        }
+        },
       },
       {
         breakpoint: 1400,
         settings: {
           centerPadding: "140px",
-        }
+        },
       },
       {
         breakpoint: 1200,
         settings: {
           centerPadding: "80px",
-        }
+        },
       },
       {
         breakpoint: 830,
         settings: {
           centerPadding: "0px",
-        }
-      }
-    ]
+        },
+      },
+    ],
   };
 
   return (
-    <div className="slider-container w-screen overflow-hidden lg:px-32 py-10">
+    <div className="slider-container w-full overflow-hidden lg:px-32 py-10">
       <Slider {...settings}>
         {asset_list_competition.map((item, index) => {
           const {

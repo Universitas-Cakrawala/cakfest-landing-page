@@ -8,7 +8,7 @@ const ListCompetition = () => {
       <div className="absolute w-full h-full">
         <img
           src={asset_competition.img_bg_competition}
-          className="w-full h-full"
+          className="size-full object-cover object-bottom"
         />
       </div>
       <div className="relative flex flex-col items-center gap-2.5 z-10 pt-8 pb-[200px]">
@@ -19,11 +19,10 @@ const ListCompetition = () => {
         </div>
         <div className="w-[620px] text-center">
           <p className="font-medium text-2xl font-jakarta-sans">
-            Join Various Exciting Competitions at
-            Cakrawala Festival!
+            Join Various Exciting Competitions at Cakrawala Festival!
           </p>
         </div>
-        <div>
+        <div className="w-full">
           <Slick_List_Competition />
         </div>
       </div>
