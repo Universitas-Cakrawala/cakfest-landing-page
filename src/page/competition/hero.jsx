@@ -114,8 +114,8 @@ const Competition = () => {
           </div>
         </div>
       </div>
-      {/* <ListCompetition />
-      <div>
+      <ListCompetition />
+      {/* <div>
         <PrizePool />
         <Our_Partnership />
       </div>

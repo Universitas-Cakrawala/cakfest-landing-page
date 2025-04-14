@@ -71,14 +71,17 @@ const Slick_List_Competition = () => {
                   src={img_bg_list}
                   className="absolute inset-0 w-full h-full"
                 />
-                <div className="flex gap-5 relative z-2 w-full h-full p-8">
-                  <img src={img_logo_competition} />
-                  <div className="flex flex-col w-full items-center gap-4">
+                <div className="flex flex-col sm:flex-row justify-center items-center gap-2 lg:gap-5 relative z-2 w-full h-full p-8">
+                  <img
+                    src={img_logo_competition}
+                    className="w-full h-fit aspect-square lg:max-w-[150px] max-w-[120px] shrink-0"
+                  />
+                  <div className="flex flex-col w-full h-full items-center gap-4">
                     <img
-                      className="h-[70px] w-[190px]"
+                      className="h-auto w-full max-w-[190px]"
                       src={img_name_competition}
                     />
-                    <p className="font-normal font-jakarta-sans text-xs text-center text-black w-full h-full overflow-hidden line-clamp-4">
+                    <p className="font-normal font-jakarta-sans text-xs text-center text-black w-full h-full">
                       {description}
                     </p>
                     <Button_List_Competition item={item} />
