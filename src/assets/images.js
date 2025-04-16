@@ -143,7 +143,11 @@ export const asset_prize_pool = {
 
 export const asset_detail_competition = {
   img_bg:
-    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/background.webp?updatedAt=1743323118861",
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background-list-competition.webp?updatedAt=1743826549907",
+  img_bg_tablet:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background-list-competition-tablet.webp",
+  img_bg_phone:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background-list-competition-phone.webp",
 };
 
 export const asset_list_competition = [
