@@ -6,10 +6,6 @@ export default function MobileMenu() {
   const { isOpen, closeSidebar } = useMobileMenu();
   const { pathname } = useLocation();
 
-  const handleLinkClick = () => {
-    closeSidebar();
-  };
-
   return (
     <>
       {/* Overlay */}
@@ -57,7 +53,7 @@ export default function MobileMenu() {
                   pathname === "/" ? "text-yellow-300" : ""
                 }`}
                 to="/"
-                onClick={handleLinkClick}
+                onClick={closeSidebar}
               >
                 Competition
               </Link>
@@ -68,7 +64,7 @@ export default function MobileMenu() {
                   pathname === "/about" ? "text-yellow-300" : ""
                 }`}
                 to="/about"
-                onClick={handleLinkClick}
+                onClick={closeSidebar}
               >
                 About
               </Link>
@@ -78,7 +74,7 @@ export default function MobileMenu() {
                 className="block text-white text-lg font-semibold hover:text-yellow-300"
                 target="_blank"
                 href="https://api.whatsapp.com/send?phone=6289526956197"
-                onClick={handleLinkClick}
+                onClick={closeSidebar}
               >
                 Contact Us
               </a>

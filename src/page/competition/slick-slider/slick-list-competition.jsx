@@ -1,10 +1,11 @@
 import { asset_list_competition } from "../../../assets/images";
 import Slider from "react-slick";
 import { Button_List_Competition } from "../button-svg";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 const Slick_List_Competition = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const sliderRef = useRef();
 
   const settings = {
     className: "center",
@@ -14,7 +15,7 @@ const Slick_List_Competition = () => {
     slidesToShow: 1,
     slideToScroll: 1,
     autoplay: true,
-    arrows: false,
+    arrows: true,
     cssEase: "linear",
     autoplaySpeed: 3000,
     pauseOnHover: true,
@@ -50,7 +51,7 @@ const Slick_List_Competition = () => {
 
   return (
     <div className="slider-container w-full overflow-hidden lg:px-32 py-10">
-      <Slider {...settings}>
+      <Slider {...settings} ref={sliderRef}>
         {asset_list_competition.map((item, index) => {
           const {
             img_name_competition,
@@ -74,14 +75,14 @@ const Slick_List_Competition = () => {
                 <div className="flex flex-col sm:flex-row justify-center items-center gap-2 lg:gap-5 relative z-2 w-full h-full p-8">
                   <img
                     src={img_logo_competition}
-                    className="w-full h-fit aspect-square lg:max-w-[150px] max-w-[120px] shrink-0"
+                    className="w-full h-fit aspect-square lg:max-w-[200px] max-w-[150px] shrink-0"
                   />
                   <div className="flex flex-col w-full h-full items-center gap-4">
                     <img
-                      className="h-auto w-full max-w-[190px]"
+                      className="h-auto w-full max-w-[200px]"
                       src={img_name_competition}
                     />
-                    <p className="font-normal font-jakarta-sans text-xs text-center text-black w-full h-full">
+                    <p className="font-normal font-jakarta-sans text-sm lg:text-base text-balance text-center text-black w-full h-full">
                       {description}
                     </p>
                     <Button_List_Competition item={item} />

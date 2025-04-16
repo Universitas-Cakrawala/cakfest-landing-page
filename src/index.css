@@ -5,6 +5,10 @@
   --font-sans: "Pixelify Sans", sans-serif;
 }
 
+@theme inline {
+  --ease-steps: steps(var(--steps, 3), end);
+}
+
 @keyframes marquee {
   from {
     transform: translateX(0%);

@@ -8,13 +8,27 @@ const Competition = () => {
   return (
     <>
       <div className="flex flex-col w-full min-h-screen relative">
-        <img
-          src={asset_competition.img_bg_hero_desktop}
-          srcSet={`${asset_competition.img_bg_hero_desktop} 1200w, ${asset_competition.img_bg_hero_tablet} 834w, ${asset_competition.img_bg_hero_hp} 375w`}
-          sizes="(max-width: 834px) 375px, (max-width: 1200px) 834px, 1200px"
-          className="absolute w-full h-full object-cover"
-        />
-        <div className="flex flex-col items-center w-full h-full z-1 pb-12 pt-24 lg:pt-40 px-5 md:px-25 lg:px-32">
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcSet={asset_competition.img_bg_hero_hp}
+          />
+          <source
+            media="(max-width: 1000px)"
+            srcSet={asset_competition.img_bg_hero_tablet}
+          />
+          <source
+            media="(min-width: 1001px)"
+            srcSet={asset_competition.img_bg_hero_desktop}
+          />
+          <img
+            src={asset_competition.img_bg_hero_desktop}
+            className="absolute w-full h-full object-cover"
+            alt="Hero background"
+          />
+        </picture>
+        <div className="flex flex-col items-center w-full h-full z-1 pb-12 pt-24 lg:pt-40 px-4 md:px-25 lg:px-32">
+          <h1 className="sr-only">Cakrawala Festival Competition</h1>
           <img
             src={asset_competition.img_title_hero}
             className="w-full max-w-[322px] md:max-w-[510px]"
@@ -107,7 +121,7 @@ const Competition = () => {
             />
           </svg>
           <div className="pt-6">
-            <p className="font-medium text-base md:text-2xl w-full max-w-[619px] flex text-center font-jakarta-sans">
+            <p className="font-medium text-base sm:text-2xl w-full max-w-[619px] text-center font-jakarta-sans">
               Tunjukkan bakat dan kreativitas kamu di berbagai kompetisi seru.
               Mari bergabung dan nantikan kejutannya!
             </p>
@@ -115,13 +129,9 @@ const Competition = () => {
         </div>
       </div>
       <ListCompetition />
-      {/* <div>
-        <PrizePool />
-        <Our_Partnership />
-      </div>
-      <div>
-        <Contact_Us />
-      </div> */}
+      <PrizePool />
+      {/* <Our_Partnership />
+      <Contact_Us /> */}
     </>
   );
 };

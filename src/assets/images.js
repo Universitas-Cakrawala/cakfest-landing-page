@@ -118,9 +118,17 @@ export const asset_list_partners = [
 
 export const asset_prize_pool = {
   img_bg:
-    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background%20(4).jpg?updatedAt=1743151643282",
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/prize-background.webp",
+  img_bg_tablet:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/prize-background-tablet.webp?updatedAt=1744796625056",
+  img_bg_phone:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/prize-background-phone.webp",
   img_prize:
-    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Group_20-removebg-preview.png?updatedAt=1742922780688",
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/prize-text.webp",
+  img_prize_tablet:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/prize-text-tablet.webp",
+  img_prize_phone:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/prize-text-phone.webp",
   img_coin:
     "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/sdka__4___1_-removebg-preview.png?updatedAt=1742923410577",
 };
@@ -242,6 +250,10 @@ export const asset_competition = {
     "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/Astronot.webp?updatedAt=1743826448597",
   img_bg_competition:
     "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background-list-competition.webp?updatedAt=1743826549907",
+  img_bg_competition_tablet:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background-list-competition-tablet.webp",
+  img_bg_competition_phone:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background-list-competition-phone.webp",
   img_piala:
     "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/piala.webp?updatedAt=1743826591771",
 };
