@@ -7,7 +7,7 @@ import { asset_competition } from "../../assets/images";
 const Competition = () => {
   return (
     <>
-      <div className="flex flex-col w-full min-h-screen relative">
+      <div className="flex flex-col justify-center w-full min-h-screen relative">
         <picture>
           <source
             media="(max-width: 600px)"
