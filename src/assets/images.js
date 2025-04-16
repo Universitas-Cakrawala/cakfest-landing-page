@@ -17,7 +17,11 @@ export const asset_time_line = [
 ];
 export const asset_contact_us = {
   img_bg:
-    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background%20(1)%20(1).webp?updatedAt=1743396237192",
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/contact-background.webp",
+  img_bg_tablet:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/contact-background-tablet.webp",
+  img_bg_phone:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/contact-background-phone.webp",
   img_title:
     "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/NEW%20LOGO%201.webp?updatedAt=1743277092436",
 };
@@ -28,7 +32,7 @@ export const asset_partners = {
   img_bg_tablet:
     "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/partnership-background-tablet.webp",
   img_bg_phone:
-    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/partnership-background-phone.webp",
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/partnership-background-phone.webp?updatedAt=1744799809901",
   img_stars:
     "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/sdka-removebg-preview.png?updatedAt=1742968385052",
 };

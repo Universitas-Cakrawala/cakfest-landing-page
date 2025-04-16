@@ -131,7 +131,7 @@ const Competition = () => {
       <ListCompetition />
       <PrizePool />
       <Our_Partnership />
-      {/* <Contact_Us /> */}
+      <Contact_Us />
     </>
   );
 };
