@@ -130,8 +130,8 @@ const Competition = () => {
       </div>
       <ListCompetition />
       <PrizePool />
-      {/* <Our_Partnership />
-      <Contact_Us /> */}
+      <Our_Partnership />
+      {/* <Contact_Us /> */}
     </>
   );
 };

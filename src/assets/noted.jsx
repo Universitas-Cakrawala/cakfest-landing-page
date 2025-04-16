@@ -12,7 +12,7 @@ export const Noted = () => {
   };
 
   return (
-    <div className="flex items-center gap-4 lg:gap-8 py-5 px-5 md:px-11 lg:px-24 z-10 bg-[#721783] overflow-hidden">
+    <div className="flex items-center gap-4 lg:gap-8 py-5 px-4 md:px-12 lg:px-24 z-10 bg-[#721783] overflow-hidden">
       <img
         src={LogoCakfest}
         className="w-full lg:max-w-[172px] max-w-[105px]"

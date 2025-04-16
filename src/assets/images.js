@@ -24,7 +24,11 @@ export const asset_contact_us = {
 
 export const asset_partners = {
   img_bg:
-    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background%20(3).jpg?updatedAt=1742969584413",
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/partnership-background.webp",
+  img_bg_tablet:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/partnership-background-tablet.webp",
+  img_bg_phone:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/partnership-background-phone.webp",
   img_stars:
     "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/sdka-removebg-preview.png?updatedAt=1742968385052",
 };

@@ -33,7 +33,7 @@ export const Slick_Partnership = ({ rtl = false }) => {
         },
       },
       {
-        breakpoint: 650,
+        breakpoint: 550,
         settings: {
           slidesToShow: 1,
         },
@@ -42,7 +42,7 @@ export const Slick_Partnership = ({ rtl = false }) => {
   };
 
   return (
-    <div className="slider-container w-full overflow-hidden lg:px-32 py-10">
+    <div className="slider-container w-full overflow-hidden">
       <Slider {...settings} className="h-full" adaptiveHeight>
         {asset_list_partners.map((item, index) => (
           <div className="px-2" key={index}>
