@@ -250,6 +250,7 @@ export const Button_List_Competition = ({ item }) => {
       className="cursor-pointer hover:scale-105 group"
       to="/details-competitions"
       state={{ path: item.pathName }}
+      aria-label="Detail Competition"
     >
       <svg
         width="125"
