@@ -1,5 +1,22 @@
 @import "tailwindcss";
 
+.pixel-corners {
+  clip-path: polygon(
+    0px calc(100% - 15px),
+    15px calc(100% - 15px),
+    15px 100%,
+    calc(100% - 15px) 100%,
+    calc(100% - 15px) calc(100% - 15px),
+    100% calc(100% - 15px),
+    100% 15px,
+    calc(100% - 15px) 15px,
+    calc(100% - 15px) 0px,
+    15px 0px,
+    15px 15px,
+    0px 15px
+  );
+}
+
 @theme {
   --font-jakarta-sans: "Plus Jakarta Sans", sans-serif;
   --font-sans: "Pixelify Sans", sans-serif;
