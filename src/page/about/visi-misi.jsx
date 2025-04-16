@@ -10,47 +10,56 @@ const MISSIONS = [
 
 const VisiMisi = () => {
   return (
-    <div className="flex flex-col w-full h-[1000px]">
+    <>
       <Noted />
       <div className="relative w-full h-full">
-        <img
-          src={asset_about.img_bg_visi_misi}
-          className="absolute inset-0 w-full h-full object-cover object-bottom"
-        />
-        <div className="flex flex-col items-center w-full h-full gap-8 relative z-10 py-20">
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcSet={asset_about.img_bg_visi_misi_phone}
+          />
+          <source
+            media="(max-width: 1000px)"
+            srcSet={asset_about.img_bg_visi_misi_tablet}
+          />
+          <source
+            media="(min-width: 1001px)"
+            srcSet={asset_about.img_bg_visi_misi}
+          />
+          <img
+            src={asset_about.img_bg_visi_misi}
+            className="absolute inset-0 w-full h-full object-cover object-bottom"
+            alt="Vision and mission background"
+          />
+        </picture>
+        <div className="flex flex-col items-center w-full h-full gap-8 relative z-10 py-20 px-4">
           <div className="flex flex-col items-center">
-            <img src={asset_about.img_telescope} />
-            <div className="flex gap-2.5">
-              <h1 className="font-bold text-5xl text-[#FFFAEB]">OUR</h1>
-              <h1 className="font-bold text-5xl text-[#FDC833]">VISION</h1>
-            </div>
-            <p className="w-[620px] font-medium text-2xl text-center pt-2.5">
+            <img
+              src={asset_about.img_telescope}
+              className="size-[100px] sm:size-[120px]"
+            />
+            <h2 className="font-bold text-2xl sm:text-5xl text-center">
+              <span className="text-[#FFFAEB]">OUR</span>{" "}
+              <span className="text-[#FDC833]">VISION</span>
+            </h2>
+            <p className="w-full max-w-[620px] font-medium font-jakarta-sans text-base sm:text-2xl text-center pt-2.5">
               Transforming Cakrawala University into a dynamic hub where
               learning and play ignite innovation
             </p>
           </div>
           <div className="flex flex-col gap-2.5 justify-center">
-            <div className="flex gap-2.5 justify-center">
-              <h1 className="font-bold text-5xl text-[#FFFAEB]">OUR</h1>
-              <h1 className="font-bold text-5xl text-[#FDC833]">MISSION</h1>
-            </div>
+            <h2 className="font-bold text-2xl sm:text-5xl text-center">
+              <span className="text-[#FFFAEB]">OUR</span>{" "}
+              <span className="text-[#FDC833]">MISSION</span>
+            </h2>
             <div className="relative w-full h-full pt-2.5 max-w-[1053px]">
-              <svg
-                className="w-full h-full absolute inset-0"
-                viewBox="0 0 1053 408"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect x="16" width="1021" height="408" fill="#591266" />
-                <rect y="16" width="1053" height="376" fill="#591266" />
-                <rect x="16" width="1021" height="16" fill="#9747A6" />
-                <rect x="1021" y="16" width="32" height="16" fill="#9747A6" />
-              </svg>
-              <ul className="space-y-5 relative px-12 py-6">
+              <ul className="space-y-5 relative px-2 sm:px-12 py-10 bg-[#591266] pixel-corners">
+                <div className="w-full h-[15px] bg-[#9747A6] absolute top-0 left-0" />
+                <div className="w-8 h-[15px] bg-[#9747A6] absolute top-[15px] right-0" />
                 {MISSIONS.map((mission, index) => (
                   <li key={index} className="flex gap-4 items-center">
                     <svg
-                      className="shrink-0 size-10"
+                      className="shrink-0 size-8 sm:size-10"
                       viewBox="0 0 40 40"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +76,9 @@ const VisiMisi = () => {
                       />
                       <rect width="30" height="10" fill="#C395CC" />
                     </svg>
-                    <p className="font-medium text-2xl">{mission}</p>
+                    <p className="font-medium font-jakarta-sans text-base sm:text-2xl">
+                      {mission}
+                    </p>
                   </li>
                 ))}
               </ul>
@@ -75,7 +86,7 @@ const VisiMisi = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 export default VisiMisi;

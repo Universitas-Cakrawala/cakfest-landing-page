@@ -24,7 +24,7 @@ const ListCompetition = () => {
           alt="Competition background"
         />
       </picture>
-      <div className="relative flex flex-col items-center gap-2.5 z-10 px-4 pt-8 pb-[200px]">
+      <div className="relative flex flex-col items-center gap-2.5 z-1 px-4 pt-8 pb-[200px]">
         <img
           src={asset_competition.img_piala}
           className="size-[120px] md:size-[152px]"
@@ -33,7 +33,7 @@ const ListCompetition = () => {
           <span className="text-[#FFFAEB]">CHALLENGE</span>{" "}
           <span className="text-[#FDC833]">YOUR SKILLS!</span>
         </h2>
-        <div className="max-w-[620px] text-center">
+        <div className="w-full max-w-[620px] text-center">
           <p className="w-full font-medium text-base sm:text-2xl font-jakarta-sans">
             Join Various Exciting Competitions at Cakrawala Festival!
           </p>

@@ -143,7 +143,11 @@ export const asset_prize_pool = {
 
 export const asset_detail_competition = {
   img_bg:
-    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/background.webp?updatedAt=1743323118861",
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background-list-competition.webp?updatedAt=1743826549907",
+  img_bg_tablet:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background-list-competition-tablet.webp",
+  img_bg_phone:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/background-list-competition-phone.webp",
 };
 
 export const asset_list_competition = [
@@ -268,9 +272,17 @@ export const asset_competition = {
 
 export const asset_about = {
   img_bg_visi_misi:
-    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/background%20(7).png?updatedAt=1744098456174",
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/visi-misi-background.webp",
+  img_bg_visi_misi_tablet:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/visi-misi-background-tablet.webp",
+  img_bg_visi_misi_phone:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/visi-misi-background-phone.webp",
   img_bg_hero:
-    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/background%20(8).png?updatedAt=1744098407891",
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/hero-background.webp",
+  img_bg_hero_tablet:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/hero-background-tablet.webp",
+  img_bg_hero_phone:
+    "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/asset%20about/hero-background-phone.webp",
   img_title:
     "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20competition/NEW%20LOGO%201.webp?updatedAt=1743277092436",
   img_telescope:

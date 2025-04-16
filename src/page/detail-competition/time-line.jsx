@@ -9,18 +9,18 @@ const Time_Line = ({ path, img_time_line }) => {
       {asset_time_line.map((item, index) => {
         return (
           <div key={index} className="flex w-full h-full relative">
-            <img src={item?.img_bg} className="w-full h-full" />
-            <div className="flex flex-col w-full items-center absolute top-[135px] gap-2.5">
-              <img src={item?.img_clock} />
-              <div className="flex gap-2.5">
-                <h1 className="font-bold text-5xl">TIME LINE </h1>
-                <h1 className="font-bold text-5xl text-[#FDC833]">{path}</h1>
-              </div>
-              <p className="flex w-[620px] text-center font-medium text-2xl">
+            <img src={item.img_bg} className="size-full absolute inset-0" />
+            <div className="flex flex-col w-full items-center gap-2.5 z-1 relative px-4 pt-8 pb-[200px]">
+              <img src={item.img_clock} />
+              <h2 className="font-bold text-2xl sm:text-5xl text-center">
+                <span>TIME LINE </span>
+                <span className="text-[#FDC833]">{path}</span>
+              </h2>
+              <p className="w-full max-w-[620px] text-center font-medium font-jakarta-sans text-base sm:text-2xl">
                 From Coding to Design, Join Various Exciting Competitions at
                 Cakrawala Festival!
               </p>
-              <img src={img_time_line} className="pt-[90px]" />
+              <img src={img_time_line} className="pt-12" />
             </div>
           </div>
         );
