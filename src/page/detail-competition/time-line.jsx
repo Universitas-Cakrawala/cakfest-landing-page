@@ -17,8 +17,7 @@ const Time_Line = ({ path, img_time_line }) => {
                 <span className="text-[#FDC833]">{path}</span>
               </h2>
               <p className="w-full max-w-[620px] text-center font-medium font-jakarta-sans text-base sm:text-2xl">
-                From Coding to Design, Join Various Exciting Competitions at
-                Cakrawala Festival!
+                Join Various Exciting Competitions at Cakrawala Festival!
               </p>
               <img src={img_time_line} className="pt-12" />
             </div>

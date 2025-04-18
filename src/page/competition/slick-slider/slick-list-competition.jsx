@@ -8,6 +8,7 @@ const Slick_List_Competition = () => {
   const sliderRef = useRef();
 
   const settings = {
+    ref: sliderRef,
     className: "center",
     centerMode: true,
     infinite: true,
@@ -51,7 +52,7 @@ const Slick_List_Competition = () => {
 
   return (
     <div className="slider-container w-full overflow-hidden lg:px-32 py-10">
-      <Slider {...settings} ref={sliderRef}>
+      <Slider {...settings}>
         {asset_list_competition.map((item, index) => {
           const { img_name_competition, img_logo_competition, description1: description } = item;
 
