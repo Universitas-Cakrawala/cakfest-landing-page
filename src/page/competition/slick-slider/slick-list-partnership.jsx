@@ -47,13 +47,13 @@ export const Slick_Partnership = ({ rtl = false }) => {
         {asset_list_partners.map((item, index) => (
           <div className="px-2" key={index}>
             <div
-              className="focus:outline-none w-full-full h-38 grid place-items-center relative py-10 px-24 lg:px-10"
+              className="focus:outline-none w-full-full h-38 grid place-items-center relative py-10 px-24 lg:px-10 pixel-corners-2 bg-[#591266]"
               aria-label={item.name_partner}
             >
-              <img
-                src={item.img_bg_list}
-                className="size-full absolute inset-0"
-              />
+              <div className="w-full h-[14px] bg-[#9747A6] absolute top-0 left-0" />
+              <div className="w-7 h-[14px] bg-[#9747A6] absolute top-[14px] right-0" />
+              <div className="w-full h-[14px] bg-[#721783] absolute bottom-0 left-0" />
+              <div className="w-7 h-[14px] bg-[#721783] absolute bottom-[14px] left-0" />
               <img
                 src={item.img_logo_list}
                 className="size-full shrink-0 relative object-contain"
