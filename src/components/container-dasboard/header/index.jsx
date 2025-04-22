@@ -20,8 +20,8 @@ const Header = () => {
 
   return (
     <div
-      className={`fixed top-0 w-full z-50 transition-all px-5 py-5 duration-300 ${
-        isScrolled ? "bg-[#571265] shadow-md px-0 py-0" : "bg-transparent"
+      className={`fixed top-0 w-full z-50 transition-all px-4 md:px-12 lg:px-24 py-5 duration-300 ${
+        isScrolled ? "bg-[#571265] shadow-md px-0 py-0" : "bg-transparent pt-12"
       }`}
     >
       <div className="flex w-full justify-between items-center">
@@ -71,27 +71,9 @@ const Header = () => {
                       clipRule="evenodd"
                       d="M8 0.691299H117V4.6913H121V8.6913H125V35.6913H121V39.6913H117V43.6913H8V39.6913H4V35.6913H0V8.6913H4V4.6913H8V0.691299Z"
                     />
-                    <rect
-                      x="8"
-                      y="39.6913"
-                      width="109"
-                      height="4"
-                      fill="#B48E24"
-                    />
-                    <rect
-                      x="8"
-                      y="39.6913"
-                      width="109"
-                      height="4"
-                      fill="#B48E24"
-                    />
-                    <rect
-                      x="8"
-                      y="39.6913"
-                      width="109"
-                      height="4"
-                      fill="#B48E24"
-                    />
+                    <rect x="8" y="39.6913" width="109" height="4" fill="#B48E24" />
+                    <rect x="8" y="39.6913" width="109" height="4" fill="#B48E24" />
+                    <rect x="8" y="39.6913" width="109" height="4" fill="#B48E24" />
                   </g>
                 </svg>
               </span>
@@ -122,30 +104,9 @@ const Header = () => {
             <rect x="3" y="29" width="24" height="1" fill="#B48E24" />
             <rect x="1" y="28" width="3" height="1" fill="#B48E24" />
             <rect x="1" y="27" width="1" height="1" fill="#B48E24" />
-            <rect
-              x="27"
-              y="1"
-              width="24"
-              height="1"
-              transform="rotate(180 27 1)"
-              fill="#FEDA76"
-            />
-            <rect
-              x="29"
-              y="2"
-              width="3"
-              height="1"
-              transform="rotate(180 29 2)"
-              fill="#FEDA76"
-            />
-            <rect
-              x="29"
-              y="3"
-              width="1"
-              height="1"
-              transform="rotate(180 29 3)"
-              fill="#FEDA76"
-            />
+            <rect x="27" y="1" width="24" height="1" transform="rotate(180 27 1)" fill="#FEDA76" />
+            <rect x="29" y="2" width="3" height="1" transform="rotate(180 29 2)" fill="#FEDA76" />
+            <rect x="29" y="3" width="1" height="1" transform="rotate(180 29 3)" fill="#FEDA76" />
             <rect x="5" y="7" width="20" height="3" fill="#6A5415" />
             <rect x="5" y="13" width="20" height="3" fill="#6A5415" />
             <rect x="5" y="19" width="20" height="3" fill="#6A5415" />

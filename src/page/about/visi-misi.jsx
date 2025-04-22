@@ -23,7 +23,7 @@ const VisiMisi = () => {
             alt="Vision and mission background"
           />
         </picture>
-        <div className="flex flex-col items-center w-full h-full gap-8 relative z-10 py-20 px-4">
+        <div className="flex flex-col items-center w-full h-full gap-8 relative z-10 py-20 px-4 md:px-12 lg:px-24">
           <div className="flex flex-col items-center">
             <img src={asset_about.img_telescope} className="size-[100px] sm:size-[120px]" />
             <h2 className="font-bold text-2xl sm:text-5xl text-center">

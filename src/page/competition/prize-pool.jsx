@@ -14,7 +14,7 @@ const PrizePool = () => {
             alt="Prize pool background"
           />
         </picture>
-        <div className="flex flex-col items-center w-full h-full gap-2.5 pt-16 px-4 relative pb-72 sm:pb-84">
+        <div className="flex flex-col items-center w-full h-full gap-2.5 pt-16 px-4 md:px-12 lg:px-24 relative pb-72 sm:pb-84">
           <img src={asset_prize_pool.img_coin} className="size-[120px] md:size-[152px]" />
           <h2 className="text-2xl sm:text-5xl font-bold text-center">
             <span className="text-[#FFFAEB]">PRIZE POOL</span>{" "}

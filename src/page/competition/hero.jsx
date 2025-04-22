@@ -9,25 +9,16 @@ const Competition = () => {
     <>
       <div className="flex flex-col justify-center w-full min-h-screen relative">
         <picture>
-          <source
-            media="(max-width: 600px)"
-            srcSet={asset_competition.img_bg_hero_hp}
-          />
-          <source
-            media="(max-width: 1000px)"
-            srcSet={asset_competition.img_bg_hero_tablet}
-          />
-          <source
-            media="(min-width: 1001px)"
-            srcSet={asset_competition.img_bg_hero_desktop}
-          />
+          <source media="(max-width: 600px)" srcSet={asset_competition.img_bg_hero_hp} />
+          <source media="(max-width: 1000px)" srcSet={asset_competition.img_bg_hero_tablet} />
+          <source media="(min-width: 1001px)" srcSet={asset_competition.img_bg_hero_desktop} />
           <img
             src={asset_competition.img_bg_hero_desktop}
             className="absolute w-full h-full object-cover"
             alt="Hero background"
           />
         </picture>
-        <div className="flex flex-col items-center w-full h-full z-1 pb-12 pt-24 lg:pt-40 px-4 md:px-25 lg:px-32">
+        <div className="flex flex-col items-center w-full h-full z-1 pb-12 pt-30 lg:pt-40 px-4 md:px-25 lg:px-32">
           <h1 className="sr-only">Cakrawala Festival Competition</h1>
           <img
             src={asset_competition.img_title_hero}
@@ -124,8 +115,8 @@ const Competition = () => {
           </svg>
           <div className="pt-6">
             <p className="font-medium text-base sm:text-2xl w-full max-w-[619px] text-center font-jakarta-sans">
-              Tunjukkan bakat dan kreativitas kamu di berbagai kompetisi seru.
-              Mari bergabung dan nantikan kejutannya!
+              Tunjukkan bakat dan kreativitas kamu di berbagai kompetisi seru. Mari bergabung dan
+              nantikan kejutannya!
             </p>
           </div>
         </div>
