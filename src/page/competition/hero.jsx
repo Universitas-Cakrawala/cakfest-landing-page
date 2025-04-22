@@ -1,6 +1,6 @@
 import ListCompetition from "./list-competition";
 import PrizePool from "./prize-pool";
-import Our_Partnership from "./our-partnership";
+// import Our_Partnership from "./our-partnership";
 import Contact_Us from "./contact-us";
 import { asset_competition } from "../../assets/images";
 
@@ -123,7 +123,7 @@ const Competition = () => {
       </div>
       <ListCompetition />
       <PrizePool />
-      <Our_Partnership />
+      {/* <Our_Partnership /> */}
       <Contact_Us />
     </>
   );
