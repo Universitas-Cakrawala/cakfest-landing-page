@@ -1,19 +1,17 @@
-import React from "react";
 import { useMobileMenu } from "../../../contexts/mobile-navigation-context";
 import { Link, useLocation } from "react-router";
+import useIsCompetitionActive from "../../../hooks/use-is-competition-active";
 
 export default function MobileMenu() {
   const { isOpen, closeSidebar } = useMobileMenu();
   const { pathname } = useLocation();
+  const isCompetitionActive = useIsCompetitionActive(false);
 
   return (
     <>
       {/* Overlay */}
       {isOpen && (
-        <div
-          className="fixed inset-0 bg-black/50 z-40 md:hidden"
-          onClick={closeSidebar}
-        />
+        <div className="fixed inset-0 bg-black/50 z-40 md:hidden" onClick={closeSidebar} />
       )}
 
       {/* Sidebar */}
@@ -24,11 +22,7 @@ export default function MobileMenu() {
       >
         <div className="p-5">
           <div className="flex justify-end">
-            <button
-              onClick={closeSidebar}
-              className="text-white"
-              aria-label="Close Menu"
-            >
+            <button onClick={closeSidebar} className="text-white" aria-label="Close Menu">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -50,10 +44,29 @@ export default function MobileMenu() {
             <li>
               <Link
                 className={`block text-white text-lg font-semibold hover:text-yellow-300 ${
-                  pathname === "/" ? "text-yellow-300" : ""
+                  pathname === "/" && !isCompetitionActive ? "text-yellow-300" : ""
                 }`}
                 to="/"
                 onClick={closeSidebar}
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={`block text-white text-lg font-semibold hover:text-yellow-300 ${
+                  isCompetitionActive ? "text-yellow-300" : ""
+                }`}
+                to="/"
+                onClick={(e) => {
+                  closeSidebar();
+                  if (pathname === "/") {
+                    e.preventDefault();
+                    document
+                      .getElementById("competition-section")
+                      ?.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
               >
                 Competition
               </Link>

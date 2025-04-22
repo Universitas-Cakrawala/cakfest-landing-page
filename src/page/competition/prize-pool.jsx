@@ -20,8 +20,8 @@ const PrizePool = () => {
             <span className="text-[#FFFAEB]">PRIZE POOL</span>{" "}
             <span className="text-[#FDC833]">PULUHAN JUTA</span>
           </h2>
-          <p className="w-full max-w-[620px] text-center font-medium font-jakarta-sans text-base sm:text-2xl">
-            Join Various Exciting Competitions at Cakrawala Festival!
+          <p className="w-full max-w-[620px] text-center font-medium font-jakarta-sans text-base sm:text-2xl text-balance">
+            Reward, glory, and more. Step up and take what&quot;s yours!
           </p>
           <picture>
             <source media="(max-width: 600px)" srcSet={asset_prize_pool.img_prize_phone} />

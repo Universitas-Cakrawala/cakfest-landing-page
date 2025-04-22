@@ -23,8 +23,8 @@ const Our_Partnership = () => {
             <h2 className="text-2xl sm:text-5xl font-bold text-center">
               <span>OUR</span> <span className="text-[#FDC833]">PARTNERSHIP</span>
             </h2>
-            <p className="w-full max-w-[620px] text-center font-medium text-base sm:text-2xl">
-              Join Various Exciting Competitions at Cakrawala Festival!
+            <p className="w-full max-w-[620px] text-center font-jakarta-sans font-medium text-base sm:text-2xl">
+              Meet the fam behind the fest.
             </p>
           </div>
           <div className="w-full pt-20 pb-10 lg:px-32 space-y-2 md:space-y-5">

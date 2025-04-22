@@ -3,11 +3,13 @@ import LogoCakfest from "../../../assets/logo-cakfest.png";
 import { Link, useLocation } from "react-router";
 import { useMobileMenu } from "../../../contexts/mobile-navigation-context";
 import MobileMenu from "../mobile-menu";
+import useIsCompetitionActive from "../../../hooks/use-is-competition-active";
 
 const Header = () => {
   const { pathname } = useLocation();
   const { toggleSidebar } = useMobileMenu();
   const [isScrolled, setIsScrolled] = useState(false);
+  const isCompetitionActive = useIsCompetitionActive(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,9 +34,28 @@ const Header = () => {
           <li>
             <Link
               className={`cursor-pointer font-semibold font-xl hover:underline underline-offset-8 ${
-                pathname === "/" ? "underline underline-offset-8" : ""
+                pathname === "/" && !isCompetitionActive ? "underline underline-offset-8" : ""
               }`}
               to="/"
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={`cursor-pointer font-semibold font-xl hover:underline underline-offset-8 ${
+                isCompetitionActive ? "underline underline-offset-8" : ""
+              }`}
+              to="/"
+              state={{ scrollId: "competition-section" }}
+              onClick={(e) => {
+                if (pathname !== "/") return;
+
+                e.preventDefault();
+                document
+                  .getElementById("competition-section")
+                  ?.scrollIntoView({ behavior: "smooth" });
+              }}
             >
               Competition
             </Link>

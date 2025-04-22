@@ -53,10 +53,11 @@ const Slick_List_Competition = () => {
   return (
     <div className="slider-container w-full overflow-hidden lg:px-32 py-10">
       <Slider {...settings}>
-        {asset_list_competition.map((item, index) => {
-          const { img_name_competition, img_logo_competition, description1: description } = item;
-
-          return (
+        {asset_list_competition.map(
+          (
+            { img_name_competition, img_logo_competition, description1: description, pathName },
+            index
+          ) => (
             <div
               key={index}
               className={`relative size-full px-5 transition-opacity hover:opacity-100 ${
@@ -78,13 +79,13 @@ const Slick_List_Competition = () => {
                     <p className="font-normal font-jakarta-sans text-sm lg:text-base text-balance text-center text-black w-full h-full">
                       {description}
                     </p>
-                    <Button_List_Competition item={item} />
+                    <Button_List_Competition pathName={pathName} />
                   </div>
                 </div>
               </div>
             </div>
-          );
-        })}
+          )
+        )}
       </Slider>
     </div>
   );
