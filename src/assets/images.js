@@ -164,7 +164,7 @@ export const asset_list_competition = [
     description2:
       "Kompetisi ini memberikan kesempatan kepada peserta untuk mengkaji studi kasus bisnis nyata, mengidentifikasi permasalahan, mengevaluasi berbagai alternatif solusi, serta merumuskan strategi berkelanjutan dalam bidang manajemen keuangan, pemasaran, operasional, dan sumber daya manusia. ",
     img_time_line:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Group%2063.webp?updatedAt=1743342805844",
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Property%201=Business%20Case.png?updatedAt=1750825153954",
     contact_pic: "+62 813-8702-7254",
   },
   {
@@ -180,7 +180,7 @@ export const asset_list_competition = [
     description2:
       "Segera siapkan tim terbaikmu, asah strategi, dan tunjukkan bahwa kalian adalah yang terkuat di lapangan. Apakah timmu siap membawa pulang gelar juara? Saatnya buktikan! 🏆🔥",
     img_time_line:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Futsal.webp?updatedAt=1743368697415",
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Property%201=Futsal.png?updatedAt=1750825118998",
     contact_pic: "6282370812995",
   },
   {
@@ -196,7 +196,7 @@ export const asset_list_competition = [
     description2:
       "Melalui olimpiade ini, kami berharap dapat mendorong semangat belajar yang lebih tinggi di kalangan siswa serta memberikan pengalaman berharga dalam mengikuti kompetisi akademik.",
     img_time_line:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Olimpiade.webp?updatedAt=1743368616081",
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Property%201=Olimpiade.png?updatedAt=1750825129358",
     contact_pic: "6285814569968",
   },
   {
@@ -212,7 +212,7 @@ export const asset_list_competition = [
     description2:
       "Persiapkan formasi terbaikmu, latih koordinasi dan kecepatan gerakan, serta bawakan tarian ini dengan penuh semangat! Inilah kesempatan untuk menunjukkan bahwa timmu mampu memukau panggung dengan harmoni dan kekuatan gerakan. Apakah timmu siap mengguncang panggung dengan keindahan Tari Ratoeh Jaroe? Saatnya bersatu dalam ritme dan tunjukkan yang terbaik! ✨🏆",
     img_time_line:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Tari.webp?updatedAt=1743368787356",
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Property%201=Tari.png?updatedAt=1750825096586",
     contact_pic: "6282114640094",
   },
   {
@@ -228,7 +228,7 @@ export const asset_list_competition = [
     description2:
       "Kompetisi ini memberikan pengalaman praktis tanpa risiko finansial nyata, sehingga sangat bermanfaat bagi pemula maupun calon investor untuk mempelajari seluk-beluk investasi. Selain itu, kompetisi ini juga sering menjadi ajang kolaborasi, inovasi, dan pembelajaran bagi para peserta dalam memahami dinamika pasar saham yang kompleks.",
     img_time_line:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Stock%20Exchange%20(1).webp?updatedAt=1743343522883",
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Property%201=Stock%20Exchange.png?updatedAt=1750825142001",
     contact_pic: "6283898433544",
   },
   {
@@ -244,7 +244,7 @@ export const asset_list_competition = [
     description2:
       "Kumpulkan squad terbaikmu, susun strategi yang tak terduga, dan bersiaplah mendominasi! Apakah timmu siap menguasai arena dan membawa pulang titel juara? Tantangan sudah dimulai, saatnya bertarung! 🏆🔥",
     img_time_line:
-      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Mobile%20Legend.webp?updatedAt=1743368742772",
+      "https://ik.imagekit.io/uc4newjdq/assets%20cakfest/assets%20detail-competition/Property%201=Mobile%20Legend.png?updatedAt=1750825109715",
     contact_pic: "6285697747439",
   },
 ];
